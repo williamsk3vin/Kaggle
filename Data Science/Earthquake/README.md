@@ -86,8 +86,7 @@ The goal is to build a predictive model and understand which features most influ
 ---
 
 ## 10. Tools & Libraries
-- Python: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Cartopy  
-- SQL (if applicable for data extraction)  
+- Python: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Cartopy   
 
 ---
 
