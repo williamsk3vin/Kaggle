@@ -9,7 +9,7 @@ The goal is to build a predictive model and understand which features most influ
 
 ## 2. Dataset
 **Source:** [Kaggle / NOAA / Earthquake Dataset]  
-**Size:** ~XX,XXX rows, XX columns  
+**Size:** ~782 rows, 13 columns  
 
 | Feature   | Type    | Description                               | Relevance |
 |-----------|---------|-------------------------------------------|-----------|
