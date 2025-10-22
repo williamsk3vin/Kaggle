@@ -77,7 +77,7 @@ An interactive map plotting the global distribution of earthquakes:
 - Markers are color-coded by magnitude and sized by event significance.  
 - Zoom and hover to see details like magnitude, depth, and tsunami potential.  
 - Helps identify high-risk regions and patterns in earthquake occurrence.
-###Earthquake and Tsunami Frequency by Month
+### Earthquake and Tsunami Frequency by Month
 A bar chart showing the distribution of earthquakes and tsunamis across the months of the year:
 - X-axis: Month of occurrence (January to December)
 - Y-axis: Number of events (or percentage of total events)
