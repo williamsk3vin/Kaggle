@@ -38,7 +38,7 @@ The goal is to build a predictive model and understand which features most influ
 ---
 
 ## 4. Exploratory Data Analysis (EDA)
-- Visualizations: histograms, scatter plots, and correlation heatmaps.  
+- Visualizations: histograms, scatter plots, and correlation heatmaps, interactive maps  
 - Key insights:  
   - Magnitude and shallow depth are the most important predictors of tsunamis.  
   - Earthquakes near coastlines have higher tsunami risk.  
@@ -72,9 +72,11 @@ The goal is to build a predictive model and understand which features most influ
 ---
 
 ## 8. Visualization
-- Scatter plots of epicenters over the world map.  
-- Correlation heatmap of features.  
-- Feature importance bar chart from the RandomForest model.
+### Interactive Map of Earthquake Epicenters
+An interactive map plotting the global distribution of earthquakes:  
+- Markers are color-coded by magnitude and sized by event significance.  
+- Zoom and hover to see details like magnitude, depth, and tsunami potential.  
+- Helps identify high-risk regions and patterns in earthquake occurrence.
 
 ---
 
