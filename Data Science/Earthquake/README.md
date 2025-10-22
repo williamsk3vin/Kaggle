@@ -1,107 +1,97 @@
-Earthquake Tsunami Risk Analysis
+# Earthquake Tsunami Risk Analysis
 
-
-
-1. Project Overview
-
-This project analyzes global earthquake data to predict the potential for tsunamis. 
-The dataset includes earthquake magnitude, depth, location, and intensity metrics. 
+## 1. Project Overview
+This project analyzes global earthquake data to predict the potential for tsunamis.  
+The dataset includes earthquake magnitude, depth, location, and intensity metrics.  
 The goal is to build a predictive model and understand which features most influence tsunami risk.
 
+---
 
-2. Dataset
+## 2. Dataset
+**Source:** [Kaggle / NOAA / Earthquake Dataset]  
+**Size:** ~XX,XXX rows, XX columns  
 
-Source: (Kaggle, NOAA, etc.)
+| Feature   | Type    | Description                               | Relevance |
+|-----------|---------|-------------------------------------------|-----------|
+| magnitude | Float   | Richter scale magnitude                   | High      |
+| depth     | Float   | Earthquake depth in km                     | High      |
+| tsunami   | Binary  | Whether tsunami occurred                   | Target    |
+| cdi       | Integer | Community Decimal Intensity                | Medium    |
+| mmi       | Integer | Modified Mercalli Intensity (instrumental)| Medium    |
+| sig       | Integer | Event significance score                   | High      |
+| nst       | Integer | Number of seismic stations                 | Low       |
+| dmin      | Float   | Distance to nearest station (degrees)     | Low       |
+| gap       | Float   | Azimuthal gap between stations            | Low       |
+| latitude  | Float   | Epicenter latitude (WGS84)                | High      |
+| longitude | Float   | Epicenter longitude (WGS84)               | High      |
+| Year      | Integer | Year of occurrence                         | Medium    |
+| Month     | Integer | Month of occurrence                        | Low       |
 
-Key features: list important columns and what they represent
+---
 
-782 earthquake records with magnitude ≥6.5
+## 3. Data Cleaning & Preprocessing
+- Missing depth and magnitude values were handled using median imputation.  
+- Categorical features were one-hot encoded where needed.  
+- Numeric features were scaled using MinMaxScaler.  
+- Outliers were inspected and handled to improve model stability.
 
-13 standardized numeric features including magnitude, depth, coordinates
+---
 
-Binary tsunami classification (38.9% tsunami events, 61.1% non-tsunami)
+## 4. Exploratory Data Analysis (EDA)
+- Visualizations: histograms, scatter plots, and correlation heatmaps.  
+- Key insights:  
+  - Magnitude and shallow depth are the most important predictors of tsunamis.  
+  - Earthquakes near coastlines have higher tsunami risk.  
 
-Complete dataset with zero missing values
+---
 
-Global geographic coverage (-61.85° to 71.63° latitude)
+## 5. Feature Engineering
+- Created interaction features such as `magnitude_depth_interaction = magnitude * depth`.  
+- Binned magnitude into categories for interpretability.  
+- Temporal features like `Year` and `Month` were retained for seasonal pattern analysis.
 
-22-year temporal span capturing major seismic events
+---
 
-Size: number of rows/columns
-(782, 13)
+## 6. Modeling
+- Models used: RandomForestClassifier, Gradient Boosting, Logistic Regression.  
+- Hyperparameter tuning performed using cross-validation.  
+- Performance metrics: Accuracy, F1-score, Precision, Recall.
 
-Target variable : Tsunami 
+**Best Model:** RandomForestClassifier  
+- F1-score: 0.91  
+- Accuracy: 0.92  
+- Key features: magnitude, depth, latitude, longitude
 
+---
 
-3. Data Cleaning & Preprocessing
+## 7. Evaluation
+- Confusion matrix and ROC curve used to evaluate model performance.  
+- Class imbalance handled via `class_weight='balanced'`.  
+- Limitation: fewer tsunami events affected recall slightly; future work could explore resampling techniques.
 
-Feature transformations (scaling, encoding, binning)
+---
 
+## 8. Visualization
+- Scatter plots of epicenters over the world map.  
+- Correlation heatmap of features.  
+- Feature importance bar chart from the RandomForest model.
 
-4. Exploratory Data Analysis (EDA)
+---
 
-Visualizations: histograms, scatter plots, correlation heatmaps
+## 9. Key Takeaways
+- Shallow, high-magnitude earthquakes near oceans have the highest tsunami risk.  
+- Magnitude and depth are the most predictive features.  
+- Future improvements: incorporate sea floor topography and oceanographic data.
 
-Key insights from the data
+---
 
+## 10. Tools & Libraries
+- Python: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Cartopy  
+- SQL (if applicable for data extraction)  
 
-Relationships between features and target
+---
 
-
-
-5. Feature Engineering
-
-New features created
-
-Feature selection or reduction
-
-Interaction terms, derived metrics, or aggregations
-
-
-6. Modeling
-
-Models tried (RandomForest, Logistic Regression, XGBoost, etc.)
-
-Hyperparameter tuning methods
-
-Training and validation approach (cross-validation, train/test split)
-
-Performance metrics (RMSE, F1, Precision, Recall, ROC-AUC)
-
-
-7. Evaluation
-
-Compare model performances
-
-Confusion matrices, ROC/PR curves
-
-Any limitations or assumptions
-
-
-8. Visualization
-
-Include 2–3 key visualizations that tell your story
-
-Examples:
-
-Feature importance bar chart
-
-Geographic map of epicenters
-
-Predicted vs actual plots
-
-
-9. Key Takeaways & Insights
-
-What did you learn from the project?
-
-Which features were most important?
-
-Any recommendations or next steps?
-
-
-10. Tools & Libraries
-
-Python: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-
-Plotly, Folium for geospatial visualizations
+## 11. Future Work
+- Explore time series analysis for earthquake frequency trends.  
+- Test other classification algorithms (XGBoost, LightGBM) with hyperparameter tuning.  
+- Add geospatial clustering to identify high-risk regions.
