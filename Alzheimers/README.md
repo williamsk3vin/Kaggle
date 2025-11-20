@@ -14,12 +14,12 @@ Source: Provided Alzheimer’s clinical dataset
 Size: ~430 rows, 30+ clinical and cognitive features
 | Feature   | Type    | Description                               | Relevance |
 |-----------|---------|-------------------------------------------|-----------|
-| MMSE      | Float   | Richter scale magnitude                   | High      |
-| ADL       | Float   | Earthquake depth in km                     | High      |
-| FunctionalAssessment   | Binary  | Whether tsunami occurred                   | Target    |
-| cdi       | Integer | Community Decimal Intensity                | Medium    |
-| mmi       | Integer | Modified Mercalli Intensity (instrumental)| Medium    |
-| sig       | Integer | Event significance score                   | High      |
+| MMSE      | Float   | Mini-Mental State Exam Score              | High      |
+| ADL       | Integer | Activities of Daily Living                | High      |
+| FunctionalAssessment| Integer | General functioning score       | High      |
+| MemoryComplaints    | Binary | Patient reports memory issues    | High      |
+| BehavioralProblems  | Binary  |  Behavioral symptoms (agitation, mood changes) |Medium|
+| SleepQuality | Integer |Sleep quality rating                     |Low|
 | nst       | Integer | Number of seismic stations                 | Low       |
 | dmin      | Float   | Distance to nearest station (degrees)     | Low       |
 | gap       | Float   | Azimuthal gap between stations            | Low       |
