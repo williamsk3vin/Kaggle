@@ -33,11 +33,11 @@ Size: ~430 rows, 30+ clinical and cognitive features including...
 
 ## 3. Data Cleaning & Preprocessing
     
-•	Confirmed no missing values in core cognitive features (MMSE, ADL, FunctionalAssessment).
-•	Standardized column names and ensured consistent data types.
-•	Split dataset into train (80%) and test (20%).
-•	Applied standard scaling where appropriate for numerical stability.
-•	Encoded binary and categorical features as integers.
+- Confirmed no missing values in core cognitive features (MMSE, ADL, FunctionalAssessment).
+- Standardized column names and ensured consistent data types.
+- Split dataset into train (80%) and test (20%).
+- Applied standard scaling where appropriate for numerical stability.
+- Encoded binary and categorical features as integers.
 
 ---
 
