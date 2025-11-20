@@ -136,16 +136,16 @@ These visualizations help interpret why the model makes certain predictions rath
 ---
 
 ## 9. Key Takeaways
-•	FunctionalAssessment and ADL are the strongest indicators of Alzheimer’s risk.
-•	MMSE contributes significantly but interacts with functional scores.
-•	Lifestyle and standard clinical metrics show minimal predictive value in this dataset.
-•	XGBoost, combined with SHAP, provides both strong performance and interpretability.
-•	Feature engineering improved interpretability more than accuracy.
+- FunctionalAssessment and ADL are the strongest indicators of Alzheimer’s risk.
+- MMSE contributes significantly but interacts with functional scores.
+- Lifestyle and standard clinical metrics show minimal predictive value in this dataset.
+- XGBoost, combined with SHAP, provides both strong performance and interpretability.
+- Feature engineering improved interpretability more than accuracy.
 
 ---
 
 ## 10. Tools & Libraries
-•	Python: Pandas, NumPy, Matplotlib, Seaborn
-•	Machine Learning: Scikit-learn, XGBoost
-•	Interpretability: SHAP
-•	Notebook environment: Jupyter
+- Python: Pandas, NumPy, Matplotlib, Seaborn
+- Machine Learning: Scikit-learn, XGBoost
+- Interpretability: SHAP
+- Notebook environment: Jupyter
