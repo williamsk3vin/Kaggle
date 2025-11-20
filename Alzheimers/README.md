@@ -60,9 +60,9 @@ Several features were engineered to capture interactions between cognitive and f
 
 | Feature   | Formula                                  | Purpose |
 |-----------|------------------------------------------|----------|
-| FA_MMSE   | FunctionalAssessment × MMSE           | Mini-Mental State Exam Score |
-| ADL_MMSE  | ADL x MMSE | Addresses linked deterioration patterns |
-| MMSE_bin  | 1 if MMSE < threshold else 0          | Helps model "low score vs. high score" behavior|
+| FA_MMSE   | FunctionalAssessment × MMSE              | Mini-Mental State Exam Score |
+| ADL_MMSE  | ADL x MMSE 							   | Addresses linked deterioration patterns |
+| MMSE_bin  | 1 if MMSE < threshold else 0             | Helps model "low score vs. high score" behavior|
 
 Engineered features provided insight but did not significantly increase accuracy, which is expected given the strength of the original predictors.
 
@@ -89,7 +89,7 @@ Best Model: Tuned XGBoost
 
 Confusion Matrix
 |           | Pred 0    | Pred 1 |
-|-----------|--------------------|
+|-----------|-----------|---------|
 | Actual 0  | 269       | 9      |
 | Actual 1  | 12        | 140    |
 
