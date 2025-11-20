@@ -59,7 +59,7 @@ These findings guided model selection and feature engineering.
 Several features were engineered to capture interactions between cognitive and functional abilities:
 
 | Feature   | Formula                                  | Purpose |
-|-----------|----------------------------------------------------|
+|-----------|------------------------------------------|----------|
 | FA_MMSE   | FunctionalAssessment × MMSE           | Mini-Mental State Exam Score |
 | ADL_MMSE  | ADL x MMSE | Addresses linked deterioration patterns |
 | MMSE_bin  | 1 if MMSE < threshold else 0          | Helps model "low score vs. high score" behavior|
