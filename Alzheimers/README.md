@@ -32,11 +32,12 @@ Size: ~430 rows, 30+ clinical and cognitive features including...
 ---
 
 ## 3. Data Cleaning & Preprocessing
-	- Confirmed no missing values in core cognitive features (MMSE, ADL, FunctionalAssessment).
-	- Standardized column names and ensured consistent data types.
-	- Split dataset into train (80%) and test (20%).
-	- Applied standard scaling where appropriate for numerical stability.
-	- Encoded binary and categorical features as integers.
+    
+•	Confirmed no missing values in core cognitive features (MMSE, ADL, FunctionalAssessment).
+•	Standardized column names and ensured consistent data types.
+•	Split dataset into train (80%) and test (20%).
+•	Applied standard scaling where appropriate for numerical stability.
+•	Encoded binary and categorical features as integers.
 
 ---
 
@@ -135,16 +136,16 @@ These visualizations help interpret why the model makes certain predictions rath
 ---
 
 ## 9. Key Takeaways
-	•	FunctionalAssessment and ADL are the strongest indicators of Alzheimer’s risk.
-	•	MMSE contributes significantly but interacts with functional scores.
-	•	Lifestyle and standard clinical metrics show minimal predictive value in this dataset.
-	•	XGBoost, combined with SHAP, provides both strong performance and interpretability.
-	•	Feature engineering improved interpretability more than accuracy.
+•	FunctionalAssessment and ADL are the strongest indicators of Alzheimer’s risk.
+•	MMSE contributes significantly but interacts with functional scores.
+•	Lifestyle and standard clinical metrics show minimal predictive value in this dataset.
+•	XGBoost, combined with SHAP, provides both strong performance and interpretability.
+•	Feature engineering improved interpretability more than accuracy.
 
 ---
 
 ## 10. Tools & Libraries
-	•	Python: Pandas, NumPy, Matplotlib, Seaborn
-	•	Machine Learning: Scikit-learn, XGBoost
-	•	Interpretability: SHAP
-	•	Notebook environment: Jupyter
+•	Python: Pandas, NumPy, Matplotlib, Seaborn
+•	Machine Learning: Scikit-learn, XGBoost
+•	Interpretability: SHAP
+•	Notebook environment: Jupyter
