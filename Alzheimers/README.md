@@ -1,50 +1,29 @@
-📘 Predicting Alzheimer’s Risk with Machine Learning
+🧠 Alzheimer’s Risk Prediction (Machine Learning Project)
 
-This project explores how machine learning can help predict the likelihood of Alzheimer’s Disease (AD) using a combination of clinical, cognitive, and behavioral features.
-I used XGBoost for classification and SHAP for interpretability to understand which features contribute most to Alzheimer’s risk and how they influence predictions.
+1. Project Overview
 
-This project was a way for me to practice:
-	•	Exploratory data analysis (EDA)
-	•	Feature engineering
-	•	Model building + tuning
-	•	Model interpretability (SHAP)
-	•	Evaluating classification performance
-	•	Structuring an ML project for a portfolio
+This project uses clinical, cognitive, and behavioral data to predict the likelihood of Alzheimer’s Disease (AD).
+The goal is to build a reliable classification model and understand which patient features contribute most to Alzheimer’s risk.
+Model interpretability is performed using SHAP to visualize how different features influence predictions.
 
 ⸻
 
-📂 Project Overview
+2. Dataset
 
-The goal of this project is to classify whether a patient is diagnosed with Alzheimer’s (Diagnosis = 1) or not (Diagnosis = 0) based on a dataset of health, cognitive, and behavioral attributes.
-
-The project focuses on:
-	•	Understanding which features are most predictive
-	•	Building a reliable ML classifier
-	•	Interpreting model behavior using SHAP
-	•	Comparing engineered features vs. raw features
-
-⸻
-
-📊 Dataset Description
-
-The dataset contains 430 patients, each with clinical and lifestyle attributes:
-
-Core cognitive + functional features
-	•	MMSE (Mini-Mental State Exam)
-	•	ADL (Activities of Daily Living)
-	•	FunctionalAssessment
-	•	MemoryComplaints
-	•	BehavioralProblems
-
-Clinical metrics
-	•	Cholesterol (LDL, HDL, Triglycerides, Total)
-	•	SystolicBP, DiastolicBP
-	•	BMI
-	•	SleepQuality
-	•	PhysicalActivity
-	•	AlcoholConsumption
-	•	EducationLevel
-	•	FamilyHistoryAlzheimers
-
-Target:
-	•	Diagnosis (0 = No AD, 1 = AD)
+Source: Provided Alzheimer’s clinical dataset
+Size: ~430 rows, 30+ clinical and cognitive features
+| Feature   | Type    | Description                               | Relevance |
+|-----------|---------|-------------------------------------------|-----------|
+| MMSE      | Float   | Richter scale magnitude                   | High      |
+| ADL       | Float   | Earthquake depth in km                     | High      |
+| FunctionalAssessment   | Binary  | Whether tsunami occurred                   | Target    |
+| cdi       | Integer | Community Decimal Intensity                | Medium    |
+| mmi       | Integer | Modified Mercalli Intensity (instrumental)| Medium    |
+| sig       | Integer | Event significance score                   | High      |
+| nst       | Integer | Number of seismic stations                 | Low       |
+| dmin      | Float   | Distance to nearest station (degrees)     | Low       |
+| gap       | Float   | Azimuthal gap between stations            | Low       |
+| latitude  | Float   | Epicenter latitude (WGS84)                | High      |
+| longitude | Float   | Epicenter longitude (WGS84)               | High      |
+| Year      | Integer | Year of occurrence                         | Medium    |
+| Month     | Integer | Month of occurrence                        | Low       |
