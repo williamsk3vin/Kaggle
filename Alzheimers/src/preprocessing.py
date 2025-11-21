@@ -9,8 +9,8 @@ def preprocess(df: pd.DataFrame):
     - Scale numerical features
     - Train/test split
     """
-    y = alzheimers["Diagnosis"]
-    X = alzheimers.drop(columns=["Diagnosis", "PatientID"], errors="ignore")
+    y = df["Diagnosis"]
+    X = df.drop(columns=["Diagnosis", "PatientID"], errors="ignore")
 
     numeric_cols = X.select_dtypes(include=["int64", "float64"]).columns
 
