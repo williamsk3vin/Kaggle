@@ -129,9 +129,6 @@ Revealed:
 
 SHAP Force Plot
 
-### MMSE KDE Plot
-![MMSE KDE](images/kde_mmse.png)
-
 Explains individual patient predictions by showing features pushing risk up or down.
 
 These visualizations help interpret why the model makes certain predictions rather than treating it as a “black box.”
