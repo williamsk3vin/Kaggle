@@ -46,10 +46,10 @@ Size: ~430 rows, 30+ clinical and cognitive features including...
 Visualizations included KDE plots, violin plots, and correlation analysis.
 
 Key Insights:
-	•	FunctionalAssessment and ADL show strong separation between AD vs. non-AD groups.
-	•	MMSE shows clear decline but has more overlap than ADL/FA.
-	•	Behavioral and memory-related features provide additional predictive power.
-	•	Clinical values (blood pressure, cholesterol, BMI) show very weak correlation with diagnosis.
+- FunctionalAssessment and ADL show strong separation between AD vs. non-AD groups.
+- MMSE shows clear decline but has more overlap than ADL/FA.
+- Behavioral and memory-related features provide additional predictive power.
+- Clinical values (blood pressure, cholesterol, BMI) show very weak correlation with diagnosis.
 
 These findings guided model selection and feature engineering.
 
