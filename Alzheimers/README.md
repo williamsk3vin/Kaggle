@@ -72,16 +72,17 @@ Engineered features provided insight but did not significantly increase accuracy
 ## 6. Modeling
 
 I experimented with several algorithms:
-	•	Random Forest
-	•	Baseline XGBoost
-	•	Tuned XGBoost (final model)
+- Random Forest (Baseline)
+- Tuned Random Forest
+- Baseline XGBoost
+- Tuned XGBoost (final model)
 
 Performance was evaluated using accuracy, precision, recall, and F1-score.
 
 Best Model: Tuned XGBoost
-	•	Accuracy: ~0.95
-	•	Strong recall for both classes
-	•	Handles nonlinear interactions well
+- Accuracy: ~0.95
+- Strong recall for both classes
+- Handles nonlinear interactions well
 
 ---
 
@@ -94,9 +95,9 @@ Confusion Matrix
 | Actual 1  | 12        | 140    |
 
 Observations
-	•	Very few false negatives → extremely important in medical prediction.
-	•	Class balance handled using weighted loss (scale_pos_weight).
-	•	ROC and classification reports confirmed the model’s reliability.
+- Very few false negatives → extremely important in medical prediction.
+- Class balance handled using weighted loss (scale_pos_weight).
+- ROC and classification reports confirmed the model’s reliability.
 
 ---
 
@@ -108,11 +109,11 @@ Feature Distributions
 SHAP Summary Plot
 
 Displays global feature importance:
-	•	FunctionalAssessment
-	•	ADL
-	•	MemoryComplaints
-	•	MMSE
-	•	BehavioralProblems
+- FunctionalAssessment
+- ADL
+- MemoryComplaints
+- MMSE
+- BehavioralProblems
 were consistently the strongest predictors.
 
 SHAP Bar Plot
@@ -122,9 +123,9 @@ Ranks features by average impact on predictions.
 SHAP Dependence Plots
 
 Revealed:
-	•	MMSE below ~22 dramatically increases AD probability
-	•	ADL below ~5 has similar effects
-	•	Functional scores heavily shape model behavior
+- MMSE below ~22 dramatically increases AD probability
+- ADL below ~5 has similar effects
+- Functional scores heavily shape model behavior
 
 SHAP Force Plot
 
