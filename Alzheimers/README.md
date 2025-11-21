@@ -129,6 +129,8 @@ Revealed:
 
 SHAP Force Plot
 
+![SHAP Force Plot](images/SHAP Forceplot.png)
+
 Explains individual patient predictions by showing features pushing risk up or down.
 
 These visualizations help interpret why the model makes certain predictions rather than treating it as a “black box.”
