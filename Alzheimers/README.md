@@ -129,7 +129,8 @@ Revealed:
 
 SHAP Force Plot
 
-![SHAP Force Plot](images/SHAP Forceplot.png)
+### MMSE KDE Plot
+![MMSE KDE](images/kde_mmse.png)
 
 Explains individual patient predictions by showing features pushing risk up or down.
 
