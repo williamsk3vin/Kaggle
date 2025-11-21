@@ -72,7 +72,6 @@ Engineered features provided insight but did not significantly increase accuracy
 ## 6. Modeling
 
 I experimented with several algorithms:
-	•	Logistic Regression
 	•	Random Forest
 	•	Baseline XGBoost
 	•	Tuned XGBoost (final model)
