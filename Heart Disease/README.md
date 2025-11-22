@@ -1,5 +1,5 @@
 
-# 🧠 Heart Disease Prediction (Machine Learning Project)
+# 🫀 Heart Disease Prediction (Machine Learning Project)
 
 ## 1. Project Overview
 
