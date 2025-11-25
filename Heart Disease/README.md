@@ -30,3 +30,12 @@ Size: ~303 rows, 14 features
 | ca        | Integer     | number of major vassels (0-3) colored by flourosopy |           |
 | thal      | Categorical | Thalassemia Test Result                             |           |
 | target    | Binary      | diagnosis of heart disease                          | Target    |
+
+
+## 3.
+
+## 4.
+
+## 5.
+
+## 6.
