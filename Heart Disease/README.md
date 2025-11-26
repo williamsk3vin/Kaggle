@@ -10,7 +10,7 @@ This project highlights how data can support early detection of heart disease an
 
 ---
 
-## 2. Dataset
+## 2. Dataset.  
 
 Source: University of California, Irvine, Heart Disease Dataset
 Size: ~303 rows, 14 features 
