@@ -32,7 +32,7 @@ Size: ~303 rows, 14 features
 | target    | Binary      | diagnosis of heart disease                          | Target    |
 
 
-## 3.
+## 3. Exploratory Data Analysis
 
 ## 4.
 
