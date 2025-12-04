@@ -3,7 +3,7 @@
 ## 1. Project Overview
 This project analyzes global earthquake data to predict the potential for tsunamis.  
 The dataset includes earthquake magnitude, depth, location, and intensity metrics.  
-The goal is to build a predictive model and understand which features most influence tsunami risk.
+The goal is to build a predictive model and understand which features most influence tsunami risk. 
 
 ---
 
