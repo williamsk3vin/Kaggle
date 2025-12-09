@@ -1,6 +1,6 @@
 # 🧠 Data Analysis and Science Projects (Kaggle & Exploratory Notebooks)
 
-Welcome to my collection of **data analysis and visualization projects**, built using real-world datasets from **Kaggle** and other open data sources.  
+Welcome to my collection of **data analysis science, and visualization projects**, built using real-world datasets from **Kaggle** and other open data sources.  
 Each project focuses on **data cleaning, exploratory analysis (EDA), visualization**, and **statistical or machine learning insights** — all implemented in Python.
 
 ---
