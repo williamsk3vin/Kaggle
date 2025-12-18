@@ -54,10 +54,11 @@ Key findings:
 ---
 
 ## 4. Modeling Approach
-Baseline Models
-	- Logistic Regression
-	- Random Forest
-	- XGBoost (baseline)
+
+Baseline Models:
+ - Logistic Regression
+ - Random Forest
+ - XGBoost (baseline
 
 Metrics used:
 	- Accuracy
