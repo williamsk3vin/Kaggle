@@ -94,7 +94,7 @@ Final evaluation (threshold = 0.35):
 ---
 
   ## 7. Model Interpretation
-  Feature Importance
+  Feature Importance<br>
 
 Tree-based feature importance highlights:
 	- Chest pain type (cp)
@@ -103,7 +103,7 @@ Tree-based feature importance highlights:
 	- Maximum heart rate (thalach)
 	- Number of major vessels (ca)
 
-SHAP Analysis
+SHAP Analysis<br>
 
 SHAP was used to:
 	- Explain individual predictions
@@ -120,13 +120,15 @@ SHAP was used to:
   ## 9. Key Takeaways
   - Exercise-related and cardiac stress indicators are strong predictors of heart disease
   - Threshold selection is as important as model choice in medical applications
-- Tree-based models capture non-linear clinical relationships effectively
-- Interpretability tools (feature importance, SHAP) are essential for trust and insight
+  - Tree-based models capture non-linear clinical relationships effectively
+  - Interpretability tools (feature importance, SHAP) are essential for trust and insight
+
+--- 
 
   ## 10. Tools and Libraries
   - Python
   - Pandas, NumPy
   - Matplotlib, Seaborn
-- Scikit-learn
-- XGBoost
-- SHAP
+  - Scikit-learn
+  - XGBoost
+  - SHAP
