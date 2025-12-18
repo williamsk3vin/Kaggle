@@ -99,19 +99,20 @@ Final evaluation (threshold = 0.35):
   ## 7. Model Interpretation
   Feature Importance<br>
 
-  Tree-based feature importance highlights:
-	- Chest pain type (cp)
-	- Thalassemia (thal)
-	- ST depression (oldpeak)
-	- Maximum heart rate (thalach)
-	- Number of major vessels (ca)
+
+Tree-based feature importance highlights:
+ - Chest pain type (cp)
+ - Thalassemia (thal)
+ - ST depression (oldpeak)
+ - Maximum heart rate (thalach)
+ - Number of major vessels (ca)
 
   SHAP Analysis<br>
 
-  SHAP was used to:
-	- Explain individual predictions
-	- Understand how feature values push predictions toward or away from heart disease
-	- Validate alignment between clinical intuition and model behavior
+SHAP was used to:
+ - Explain individual predictions
+ - Understand how feature values push predictions toward or away from heart disease
+ - Validate alignment between clinical intuition and model behavior
 
 ---
 
