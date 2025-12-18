@@ -81,7 +81,7 @@ Threshold tuning was performed by evaluating performance across probability cuto
 
    Chosen threshold: 0.35<br>
 
-   This threshold:<br>
+   This threshold:
 	- Achieves 97% recall for heart disease
 	- Minimizes false negatives
 	- Accepts additional false positives as a clinical trade-off
