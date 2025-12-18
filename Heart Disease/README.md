@@ -79,14 +79,14 @@ Metrics used:
 In a medical screening context, false negatives are more costly than false positives.
 Threshold tuning was performed by evaluating performance across probability cutoffs from 0.05 to 0.95.
 
-Chosen threshold: 0.35<br>
+   Chosen threshold: 0.35<br>
 
-This threshold:<br>
+   This threshold:<br>
 	- Achieves 97% recall for heart disease
 	- Minimizes false negatives
 	- Accepts additional false positives as a clinical trade-off
 
-Final evaluation (threshold = 0.35):<br>
+   Final evaluation (threshold = 0.35):<br>
 	- Recall (heart disease): 0.97
 	- ROC AUC (threshold-free): 0.889
 	- Confusion matrix shows strong sensitivity with acceptable specificity
@@ -96,16 +96,16 @@ Final evaluation (threshold = 0.35):<br>
   ## 7. Model Interpretation
   Feature Importance<br>
 
-Tree-based feature importance highlights:
+  Tree-based feature importance highlights:
 	- Chest pain type (cp)
 	- Thalassemia (thal)
 	- ST depression (oldpeak)
 	- Maximum heart rate (thalach)
 	- Number of major vessels (ca)
 
-SHAP Analysis<br>
+  SHAP Analysis<br>
 
-SHAP was used to:
+  SHAP was used to:
 	- Explain individual predictions
 	- Understand how feature values push predictions toward or away from heart disease
 	- Validate alignment between clinical intuition and model behavior
