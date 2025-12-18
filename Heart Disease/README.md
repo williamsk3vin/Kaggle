@@ -79,14 +79,14 @@ Metrics used:
 In a medical screening context, false negatives are more costly than false positives.
 Threshold tuning was performed by evaluating performance across probability cutoffs from 0.05 to 0.95.
 
-Chosen threshold: 0.35
+Chosen threshold: 0.35<br>
 
-This threshold:
+This threshold:<br>
 	- Achieves 97% recall for heart disease
 	- Minimizes false negatives
 	- Accepts additional false positives as a clinical trade-off
 
-Final evaluation (threshold = 0.35):
+Final evaluation (threshold = 0.35):<br>
 	- Recall (heart disease): 0.97
 	- ROC AUC (threshold-free): 0.889
 	- Confusion matrix shows strong sensitivity with acceptable specificity
