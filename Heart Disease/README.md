@@ -32,8 +32,8 @@ Size: ~303 rows, 14 features
 | target    | Binary      | diagnosis of heart disease                          | Target    |
 
 Target:
-	-	target = 1 → presence of heart disease
-	-	target = 0 → no heart disease
+ - target = 1 → presence of heart disease
+ - target = 0 → no heart disease
 
 ## 3. Exploratory Data Analysis
 Exploratory Data Analysis (EDA)
