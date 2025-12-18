@@ -60,11 +60,12 @@ Baseline Models:
  - Random Forest
  - XGBoost (baseline
 
-Metrics used:
-	- Accuracy
-	- Precision / Recall / F1-score
-	- Confusion Matrix
-	- ROC AUC (threshold-free)
+
+Metrics Used:
+ - Accuracy
+ - Precision / Recall/ F1-score
+ - Confusion Matrix
+ - ROC AUC (threshold free)
 
 ---
 
@@ -80,17 +81,18 @@ Metrics used:
 In a medical screening context, false negatives are more costly than false positives.
 Threshold tuning was performed by evaluating performance across probability cutoffs from 0.05 to 0.95.
 
-   Chosen threshold: 0.35<br>
+Chosen threshold: 0.35<br>
 
-   This threshold:
-	- Achieves 97% recall for heart disease
-	- Minimizes false negatives
-	- Accepts additional false positives as a clinical trade-off
+This threshold:
+ - Achieves 97% recall for heart disease
+ - Minimizes false negatives
+ - Accepts additional false positives as a clinical trade-off
 
-   Final evaluation (threshold = 0.35):<br>
-	- Recall (heart disease): 0.97
-	- ROC AUC (threshold-free): 0.889
-	- Confusion matrix shows strong sensitivity with acceptable specificity
+
+Final evaluation (threshold = 0.35):
+ - Recall (heart disease): 0.97
+ - ROC AUC (threshold-free): 0.889
+ - Confusion matrix shows strong sensitivity with acceptable specificity
 
 ---
 
