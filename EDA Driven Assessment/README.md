@@ -15,7 +15,7 @@ The conclusion intentionally shows when not to model, reflecting real-world data
 ---
 
 
-🎯 ## Problem Statement
+## 🎯 Problem Statement
 
 Can vehicle attributes be used to reliably predict car prices?
 
@@ -23,7 +23,7 @@ The goal was to evaluate whether available features (e.g., mileage, engine size,
 
 ---
 
-📊 ## Dataset Summary
+## 📊 Dataset Summary
 	•	Target variable: Price
 	•	Numeric features include:
 	•	Mileage
@@ -35,16 +35,16 @@ The dataset appears to be synthetic or randomly generated, which makes it useful
 
 ---
 
-🔍 Exploratory Data Analysis
+## 🔍 Exploratory Data Analysis
 
-1️⃣ Target Variable Analysis
+# 1️⃣ Target Variable Analysis
 	•	The target variable (Price) is approximately uniformly distributed across its range
 	•	No significant skewness or extreme outliers
 	•	Mean price lies near the midpoint of the range
 
 Insight: Target transformation (e.g., log scaling) is unnecessary.
 
-⸻
+---
 
 2️⃣ Feature Distributions
 	•	Mileage is uniformly distributed with a mean around 150,000 miles
