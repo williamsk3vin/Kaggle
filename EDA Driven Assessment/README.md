@@ -1,6 +1,6 @@
 EDA-Driven Assessment of a Low-Signal Regression Dataset
 
-📌 Project Overview
+📌 ## Project Overview
 
 This project demonstrates an EDA-first approach to regression problems, with a focus on evaluating whether a dataset is suitable for predictive modeling before building models.
 
@@ -12,17 +12,18 @@ Rather than forcing a regression algorithm, the analysis uses exploratory data a
 
 The conclusion intentionally shows when not to model, reflecting real-world data science decision-making.
 
-⸻
+---
 
-🎯 Problem Statement
+
+🎯 ## Problem Statement
 
 Can vehicle attributes be used to reliably predict car prices?
 
 The goal was to evaluate whether available features (e.g., mileage, engine size, year) contain meaningful signal to support regression modeling.
 
-⸻
+---
 
-📊 Dataset Summary
+📊 ## Dataset Summary
 	•	Target variable: Price
 	•	Numeric features include:
 	•	Mileage
@@ -32,7 +33,7 @@ The goal was to evaluate whether available features (e.g., mileage, engine size,
 
 The dataset appears to be synthetic or randomly generated, which makes it useful for demonstrating EDA methodology and critical analysis.
 
-⸻
+---
 
 🔍 Exploratory Data Analysis
 
