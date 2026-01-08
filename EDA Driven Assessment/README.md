@@ -5,6 +5,7 @@ EDA-Driven Assessment of a Low-Signal Regression Dataset
 This project demonstrates an EDA-first approach to regression problems, with a focus on evaluating whether a dataset is suitable for predictive modeling before building models.
 
 Rather than forcing a regression algorithm, the analysis uses exploratory data analysis to assess:
+
 	•	Target variable behavior
 	•	Feature–target relationships
 	•	Correlation structure
@@ -58,10 +59,11 @@ Insight: Target transformation (e.g., log scaling) is unnecessary.
 Scatterplots and regression lines were used to evaluate relationships between numeric features and price.
 
 Key observation:
-		• No visible relationship between Mileage and Price
-		• Regression line is effectively flat
-		• Similar behavior observed for other numeric features
 
+			• No visible relationship between Mileage and Price
+			• Regression line is effectively flat
+			• Similar behavior observed for other numeric features
+	
 ---
 
 ### 4️⃣ Correlation Analysis
@@ -92,6 +94,7 @@ The dataset lacks sufficient predictive signal to justify regression modeling.
 Instead of forcing a regression model, this project intentionally stops after EDA.
 
 This reflects real-world practice:
+
 	• Modeling noisy or low-signal data leads to misleading results
 	• EDA should guide whether modeling is appropriate
 
@@ -102,6 +105,7 @@ Choosing not to model is a valid and often correct outcome.
 ### 📈 What Would Improve This Dataset
 
 With additional features, meaningful modeling might be possible:
+
 			•	Condition ratings
 			•	Market or location data
 			•	Categorical feature encoding
