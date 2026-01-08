@@ -37,7 +37,7 @@ The dataset appears to be synthetic or randomly generated, which makes it useful
 
 ## 🔍 Exploratory Data Analysis
 
-# 1️⃣ Target Variable Analysis
+### 1️⃣ Target Variable Analysis
 	•	The target variable (Price) is approximately uniformly distributed across its range
 	•	No significant skewness or extreme outliers
 	•	Mean price lies near the midpoint of the range
