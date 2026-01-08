@@ -46,14 +46,14 @@ Insight: Target transformation (e.g., log scaling) is unnecessary.
 
 ---
 
-2️⃣ Feature Distributions
+### 2️⃣ Feature Distributions
 	•	Mileage is uniformly distributed with a mean around 150,000 miles
 	•	Feature ranges are internally consistent
 	•	No obvious data quality issues (e.g., constant columns)
 
-⸻
+---
 
-3️⃣ Feature–Target Relationships
+### 3️⃣ Feature–Target Relationships
 
 Scatterplots and regression lines were used to evaluate relationships between numeric features and price.
 
@@ -62,9 +62,9 @@ Key observation:
 	•	Regression line is effectively flat
 	•	Similar behavior observed for other numeric features
 
-⸻
+---
 
-4️⃣ Correlation Analysis
+### 4️⃣ Correlation Analysis
 
 Correlation coefficients between numeric features and Price:
 
@@ -74,9 +74,9 @@ Year         ≈ -0.03
 
 All correlations are close to zero, indicating no meaningful linear relationships.
 
-⸻
+---
 
-🧠 Key Findings
+### 🧠 Key Findings
 	•	No numeric feature exhibits predictive signal for price
 	•	Relationships between features and target appear random
 	•	Model performance would be fundamentally constrained by data quality, not algorithm choice
@@ -85,9 +85,9 @@ Conclusion:
 
 The dataset lacks sufficient predictive signal to justify regression modeling.
 
-⸻
+---
 
-🚫 Why No Model Was Built
+### 🚫 Why No Model Was Built
 
 Instead of forcing a regression model, this project intentionally stops after EDA.
 
@@ -97,9 +97,9 @@ This reflects real-world practice:
 
 Choosing not to model is a valid and often correct outcome.
 
-⸻
+---
 
-📈 What Would Improve This Dataset
+### 📈 What Would Improve This Dataset
 
 With additional features, meaningful modeling might be possible:
 	•	Condition ratings
@@ -107,17 +107,17 @@ With additional features, meaningful modeling might be possible:
 	•	Categorical feature encoding
 	•	Interaction terms
 
-⸻
+---
 
-🛠️ Tools & Libraries
+### 🛠️ Tools & Libraries
 	•	Python
 	•	pandas
 	•	seaborn
 	•	matplotlib
 
-⸻
+---
 
-✅ Skills Demonstrated
+### ✅ Skills Demonstrated
 	•	Exploratory Data Analysis (EDA)
 	•	Regression diagnostics
 	•	Feature–target relationship analysis
@@ -125,16 +125,13 @@ With additional features, meaningful modeling might be possible:
 	•	Data-driven decision-making
 	•	Knowing when not to apply machine learning
 
-⸻
+---
 
-📌 Key Takeaway
+### 📌 Key Takeaway
 
 EDA is not about proving a model will work — it is about determining whether it should be built at all.
 
 This project highlights the importance of critical thinking and data validation in applied data science.
 
-⸻
+---
 
-📬 Contact
-
-Feel free to reach out or explore my other projects for examples of predictive modeling on high-signal datasets.
