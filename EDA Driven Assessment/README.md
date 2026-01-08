@@ -1,6 +1,6 @@
 EDA-Driven Assessment of a Low-Signal Regression Dataset
 
-📌 ## Project Overview
+## 📌 Project Overview
 
 This project demonstrates an EDA-first approach to regression problems, with a focus on evaluating whether a dataset is suitable for predictive modeling before building models.
 
