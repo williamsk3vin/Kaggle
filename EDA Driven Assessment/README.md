@@ -6,10 +6,10 @@ This project demonstrates an EDA-first approach to regression problems, with a f
 
 Rather than forcing a regression algorithm, the analysis uses exploratory data analysis to assess:
 
-	•	Target variable behavior
-	•	Feature–target relationships
-	•	Correlation structure
-	•	Overall predictive signal
+	• Target variable behavior
+	• Feature–target relationships
+	• Correlation structure
+	• Overall predictive signal
 
 The conclusion intentionally shows when not to model, reflecting real-world data science decision-making.
 
@@ -25,12 +25,12 @@ The goal was to evaluate whether available features (e.g., mileage, engine size,
 ---
 
 ## 📊 Dataset Summary
-	•	Target variable: Price
-	•	Numeric features include:
-	•	Mileage
-	•	Engine Size
-	•	Year
-	•	Car ID (identifier)
+	• Target variable: Price
+	• Numeric features include:
+	• Mileage
+	• Engine Size
+	• Year
+	• Car ID (identifier)
 
 The dataset appears to be synthetic or randomly generated, which makes it useful for demonstrating EDA methodology and critical analysis.
 
@@ -39,18 +39,18 @@ The dataset appears to be synthetic or randomly generated, which makes it useful
 ## 🔍 Exploratory Data Analysis
 
 ### 1️⃣ Target Variable Analysis
-	•	The target variable (Price) is approximately uniformly distributed across its range
-	•	No significant skewness or extreme outliers
-	•	Mean price lies near the midpoint of the range
+	• The target variable (Price) is approximately uniformly distributed across its range
+	• No significant skewness or extreme outliers
+	• Mean price lies near the midpoint of the range
 
 Insight: Target transformation (e.g., log scaling) is unnecessary.
 
 ---
 
 ### 2️⃣ Feature Distributions
-	•	Mileage is uniformly distributed with a mean around 150,000 miles
-	•	Feature ranges are internally consistent
-	•	No obvious data quality issues (e.g., constant columns)
+	• Mileage is uniformly distributed with a mean around 150,000 miles
+	• Feature ranges are internally consistent
+	• No obvious data quality issues (e.g., constant columns)
 
 ---
 
@@ -60,9 +60,9 @@ Scatterplots and regression lines were used to evaluate relationships between nu
 
 Key observation:
 
-			• No visible relationship between Mileage and Price
-			• Regression line is effectively flat
-			• Similar behavior observed for other numeric features
+	• No visible relationship between Mileage and Price
+	• Regression line is effectively flat
+	• Similar behavior observed for other numeric features
 	
 ---
 
@@ -79,9 +79,9 @@ All correlations are close to zero, indicating no meaningful linear relationship
 ---
 
 ### 🧠 Key Findings
-	•	No numeric feature exhibits predictive signal for price
-	•	Relationships between features and target appear random
-	•	Model performance would be fundamentally constrained by data quality, not algorithm choice
+	• No numeric feature exhibits predictive signal for price
+	• Relationships between features and target appear random
+	• Model performance would be fundamentally constrained by data quality, not algorithm choice
 
 Conclusion:
 
@@ -106,28 +106,28 @@ Choosing not to model is a valid and often correct outcome.
 
 With additional features, meaningful modeling might be possible:
 
-			•	Condition ratings
-			•	Market or location data
-			•	Categorical feature encoding
-			•	Interaction terms
+	• Condition ratings
+	• Market or location data
+	• Categorical feature encoding
+	• Interaction terms
 
 ---
 
 ### 🛠️ Tools & Libraries
-	•	Python
-	•	pandas
-	•	seaborn
-	•	matplotlib
+	• Python
+	• pandas
+	• seaborn
+	• matplotlib
 
 ---
 
 ### ✅ Skills Demonstrated
-	•	Exploratory Data Analysis (EDA)
-	•	Regression diagnostics
-	•	Feature–target relationship analysis
-	•	Correlation analysis
-	•	Data-driven decision-making
-	•	Knowing when not to apply machine learning
+	• Exploratory Data Analysis (EDA)
+	• Regression diagnostics
+	• Feature–target relationship analysis
+	• Correlation analysis
+	• Data-driven decision-making
+	• Knowing when not to apply machine learning
 
 ---
 
