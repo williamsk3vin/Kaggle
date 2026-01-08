@@ -68,9 +68,9 @@ Key observation:
 
 Correlation coefficients between numeric features and Price:
 
-Mileage      ≈ -0.01
-Engine Size  ≈ -0.01
-Year         ≈ -0.03
+	Mileage      ≈ -0.01
+	Engine Size  ≈ -0.01
+	Year         ≈ -0.03
 
 All correlations are close to zero, indicating no meaningful linear relationships.
 
@@ -92,8 +92,8 @@ The dataset lacks sufficient predictive signal to justify regression modeling.
 Instead of forcing a regression model, this project intentionally stops after EDA.
 
 This reflects real-world practice:
-	•	Modeling noisy or low-signal data leads to misleading results
-	•	EDA should guide whether modeling is appropriate
+		• Modeling noisy or low-signal data leads to misleading results
+		• EDA should guide whether modeling is appropriate
 
 Choosing not to model is a valid and often correct outcome.
 
@@ -102,10 +102,10 @@ Choosing not to model is a valid and often correct outcome.
 ### 📈 What Would Improve This Dataset
 
 With additional features, meaningful modeling might be possible:
-	•	Condition ratings
-	•	Market or location data
-	•	Categorical feature encoding
-	•	Interaction terms
+		•	Condition ratings
+		•	Market or location data
+		•	Categorical feature encoding
+		•	Interaction terms
 
 ---
 
