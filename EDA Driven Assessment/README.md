@@ -58,9 +58,9 @@ Insight: Target transformation (e.g., log scaling) is unnecessary.
 Scatterplots and regression lines were used to evaluate relationships between numeric features and price.
 
 Key observation:
-	•	No visible relationship between Mileage and Price
-	•	Regression line is effectively flat
-	•	Similar behavior observed for other numeric features
+		• No visible relationship between Mileage and Price
+		• Regression line is effectively flat
+		• Similar behavior observed for other numeric features
 
 ---
 
@@ -92,8 +92,8 @@ The dataset lacks sufficient predictive signal to justify regression modeling.
 Instead of forcing a regression model, this project intentionally stops after EDA.
 
 This reflects real-world practice:
-			• Modeling noisy or low-signal data leads to misleading results
-			• EDA should guide whether modeling is appropriate
+	• Modeling noisy or low-signal data leads to misleading results
+	• EDA should guide whether modeling is appropriate
 
 Choosing not to model is a valid and often correct outcome.
 
