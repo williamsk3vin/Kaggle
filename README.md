@@ -11,6 +11,7 @@ This repository contains multiple independent Jupyter notebooks, each exploring 
 
 | Project | Description | Topics / Skills |
 |----------|--------------|-----------------|
+| 📉 **EDA-Driven Assessment of a Low-Signal Regression Dataset** |  Evaluating dataset suitability for regression modeling | EDA, Correlation, Visualization|
 | 🫀 **Heart Disease Prediction** | Analyzes UCI Medical Data to predict the liklihood of Heart Disease | EDA, Correlation, Visualization, ML|
 | 🧠 **Alzheimer’s Risk Prediction** | Analyzes clinical, cognitive, and behavioral data to predict the likelihood of Alzheimer’s Disease (AD) | EDA, Correlation, Visualization, Random Forest, XGBoost|
 | 🎓 **Academic Stress Factors Among Students** | Analyzes how study load, sleep, and academic habits affect stress levels among students. | EDA, Correlation, Visualization |
