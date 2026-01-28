@@ -30,7 +30,8 @@ Core stack used across all projects:
 - **NumPy** – numerical computation  
 - **Matplotlib / Seaborn** – data visualization  
 - **SciPy / Statsmodels** – correlation and hypothesis testing  
-- **Plotly** (optional) – for interactive charts  
+- **Plotly** (optional) – for interactive charts
+- **Sklearn** - for ML modeling
 
 ---
 
