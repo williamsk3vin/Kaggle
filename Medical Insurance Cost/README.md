@@ -51,10 +51,10 @@ Key Findings:
 ## 4. Modeling Approach
 
 Baseline Models:
- - Logistic Regression
- - Ridge
- - Random Forest
- - Histogram-based Gradient Boosting
+ - Logistic Regressor
+ - Ridge Regressor
+ - Random Forest Regressor
+ - Histogram-based Gradient Boosting Regressor
 
 
 Metrics Used:
