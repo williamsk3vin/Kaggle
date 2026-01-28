@@ -16,7 +16,7 @@ Size: ~1338 rows, 7 features
 |-----------|-------------|-----------------------------------------------------|-----------|
 | age       | Integer     | Age of Primary Beneficiary                          |           |
 | sex       | Categorical | Gender of Insurance Contractor                      |           |
-| bmi       | Integer     | Body Mass Index (kg/m^2                             |           |
+| bmi       | Integer     | Body Mass Index (kg/m²)                             |           |
 | children  | Integer     | Number of children covered by health insurance      |           |
 | smoker    | Categorical | Smoking Status (yes or no)                          |           |
 | region    | Categorical | Beneficiarys residential area in the US             |           |
@@ -58,7 +58,7 @@ Baseline Models:
 
 
 Metrics Used:
- - R^2
+ - R²
  - Root Mean Squared Error (RMSE)
 
 ---
