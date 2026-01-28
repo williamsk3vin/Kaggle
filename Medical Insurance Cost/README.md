@@ -66,16 +66,16 @@ Metrics Used:
 
   ## 5. Model Interpretation
 
-Base Line Linear Regression<br>
+**Base Line Linear Regression** <br>
 Linear Regression was used as a baseline model to establish a reference level of performance and interpretability. Initial exploratory analysis suggested largely linear relationships between predictors and insurance charges once key interaction effects were accounted for. This model provided a transparent benchmark against which more complex models were evaluated.
 
-Random Forest Regressor <br>
+**Random Forest Regressor** <br>
 A Random Forest Regressor was evaluated to capture potential nonlinear relationships without explicit feature engineering. While the model achieved very low training error, test performance was comparable to Ridge regression, indicating substantial overfitting without meaningful gains in generalization. This suggests that the dominant structure of the data was already well captured by the engineered linear model.
 
-Histogram Gradient Boosting Regression <br>
+**Histogram Gradient Boosting Regression** <br>
 Histogram Gradient Boosting was tested as an additional nonlinear ensemble method. Although effective at fitting training data, it underperformed relative to Ridge regression on held-out data. This further supports the conclusion that the dataset’s signal is primarily linear once interaction effects are modeled explicitly.
 
-Ridge Regressor (Final Model) <br>
+**Ridge Regressor (Final Model)** <br>
 Ridge Regression was selected as the primary model to address multicollinearity introduced by interaction features while preserving all relevant predictors. Exploratory analysis revealed overlapping linear regimes driven by smoking status, motivating the inclusion of interaction terms between smoking and both BMI and age. Ridge regularization stabilized coefficient estimates and achieved strong generalization performance (R² ≈ 0.88, RMSE ≈ $4.6k), with minimal train–test error divergence.
 
 ---
@@ -88,7 +88,7 @@ Ridge Regression was selected as the primary model to address multicollinearity 
 
 --- 
 
-  ## 10. Tools and Libraries
+  ## 7. Tools and Libraries
   - Python
   - Pandas, NumPy
   - Matplotlib, Seaborn
