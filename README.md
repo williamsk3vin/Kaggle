@@ -31,7 +31,7 @@ Core stack used across all projects:
 - **Matplotlib / Seaborn** – data visualization  
 - **SciPy / Statsmodels** – correlation and hypothesis testing  
 - **Plotly** (optional) – for interactive charts
-- **Sklearn** - for ML modeling
+- **Sklearn** - ML modeling
 
 ---
 
