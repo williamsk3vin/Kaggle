@@ -13,7 +13,7 @@ This project highlights how data can support early detection of heart disease an
 
 ## 2. Dataset.  
 
-Source: Public Domain:  https://www.kaggle.com/datasets/hetmengar/medical-insurance-cost-prediction
+Source: Public Domain:  https://www.kaggle.com/datasets/hetmengar/medical-insurance-cost-prediction <br>
 Size: ~1338 rows, 7 features 
 | Feature   | Type        | Description                                         | Relevance |
 |-----------|-------------|-----------------------------------------------------|-----------|
