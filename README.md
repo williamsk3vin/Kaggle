@@ -11,6 +11,7 @@ This repository contains multiple independent Jupyter notebooks, each exploring 
 
 | Project | Description | Topics / Skills |
 |----------|--------------|-----------------|
+| :chart_with_upwards_trend: **Medical Insurance Cost** |  Analyzes health factors to determine medical insurance pricing | EDA, Correlation, Visualization, Linear Regression, Random Forest|
 | 📉 **EDA-Driven Assessment of a Low-Signal Regression Dataset** |  Evaluating dataset suitability for regression modeling | EDA, Correlation, Visualization|
 | 🫀 **Heart Disease Prediction** | Analyzes UCI Medical Data to predict the liklihood of Heart Disease | EDA, Correlation, Visualization, ML|
 | 🧠 **Alzheimer’s Risk Prediction** | Analyzes clinical, cognitive, and behavioral data to predict the likelihood of Alzheimer’s Disease (AD) | EDA, Correlation, Visualization, Random Forest, XGBoost|
