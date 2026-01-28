@@ -4,10 +4,7 @@
 
 ## 1. Project Overview
 
-This project explores the UCI Heart Disease dataset to understand the factors that contribute to heart disease and to build predictive machine-learning models that can identify patients at higher risk.
-The goal is to walk through a full end-to-end data science workflow — from exploration to modeling and interpretation — while keeping the analysis understandable and clinically meaningful.
-
-This project highlights how data can support early detection of heart disease and provides a practical example of applying machine-learning techniques to a real medical dataset.
+This project analyzes the Medical Insurance Cost dataset to understand the factors driving higher insurance charges and to build predictive models for estimating individual costs. The workflow spans exploratory analysis, feature engineering, and model evaluation, with a focus on how interaction effects enable interpretable linear models to achieve strong predictive performance.
 
 ---
 
