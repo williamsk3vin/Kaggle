@@ -58,7 +58,7 @@ Baseline Models:
 
 
 Metrics Used:
- - R²
+ - R-squared (R²)
  - Root Mean Squared Error (RMSE)
 
 ---
