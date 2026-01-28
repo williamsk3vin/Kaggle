@@ -1,6 +1,6 @@
 
 
-# 🫀 Medical Insurance Cost (Machine Learning Project)
+# :chart_with_upwards_trend: Medical Insurance Cost (Machine Learning Project)
 
 ## 1. Project Overview
 
@@ -36,7 +36,7 @@ Target:
 Exploratory Data Analysis (EDA)
 
 EDA focused on understanding:
-	- Relationships between features and the target
+  - Relationships between features and the target
   - Relationships of Categorical features seperated by smoking vs non smoking
   - Correlation of all features to target
 
@@ -44,8 +44,10 @@ FEATURE ENGINEERING:
   - bmi x Smoker = BMI_Smoker
   - age x Smoker = Age_Smoker
 
-Key findings:
-	- Strong associations observed for smoker_encoded, bmi_smoker, and age_smoker
+Key Findings:
+  - Smoking-related features, particularly interactions with BMI and age, show the strongest associations with insurance charges.
+  - BMI and age have limited impact in isolation but substantially increase costs among smokers.
+  - Region and children contribute marginally relative to smoking-related predictors.
 
 ---
 
