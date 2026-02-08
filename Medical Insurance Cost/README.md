@@ -37,7 +37,7 @@ EDA focused on understanding:
   - Relationships of Categorical features seperated by smoking vs non smoking
   - Correlation of all features to target
 
-FEATURE ENGINEERING:
+Feature Engineering:
   - bmi x Smoker = BMI_Smoker
   - age x Smoker = Age_Smoker
 
