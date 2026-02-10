@@ -12,7 +12,7 @@ This repository contains multiple independent Jupyter notebooks, each exploring 
 | Project | Description | Topics / Skills |
 |----------|--------------|-----------------|
 | :chart_with_upwards_trend: Silver Price 10 Year Historical Data & Forecasting|  | |
-|:cloud: Daily Climate Time Series | Forecasts daily weather variables (temperature, humidity, wind speed, and pressure) using lag features and seasonal encoding | Time Series EDA, Lag Feature Engineering, Seasonal Encoding (sin/cos), Linear Regression, Ridge, Random Forest, Multi-Target Forecasting |
+|:cloud: Daily Climate Time Series | Forecasts daily weather patterns using lag features and seasonal time encoding | Time Series EDA, Feature Engineering, Linear & Ridge Regression, Random Forest, Multi-Target Forecasting |
 | :chart_with_upwards_trend: **Medical Insurance Cost** |  Analyzes health factors to determine medical insurance pricing | EDA, Correlation, Visualization, Linear Regression, Random Forest|
 | 📉 **EDA-Driven Assessment of a Low-Signal Regression Dataset** |  Evaluating dataset suitability for regression modeling | EDA, Correlation, Visualization|
 | 🫀 **Heart Disease Prediction** | Analyzes UCI Medical Data to predict the liklihood of Heart Disease | EDA, Correlation, Visualization, ML|
