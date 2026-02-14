@@ -15,20 +15,15 @@ Source:
 Size: (2513, 8)
 | Feature   | Type        | Description                                         | Relevance |
 |-----------|-------------|-----------------------------------------------------|-----------|
-| Date      | Integer     | Trading date                              |           |
-| Close     |      | |
-| Price     | Categorical | Adjusted CLosing Price                      |   Target  |
-| High      | Integer     | Highest Price of the Day                             |           |
-| Low       | Integer     | Lowest Price of the Day      |           |
-| Open      | Categorical | Opening price in USD per troy ounce                          |           |
-| Volume    | Categorical | # of Contracts Traded             |           |
+| Date      | Date        | Trading date                                        |           |
+| Close     | Float         | Closing price                                       |           |
+| Price     | Float | Adjusted CLosing Price                              |   Target  |
+| High      | Float     | Highest Price of the Day                            |           |
+| Low       | Float     | Lowest Price of the Day                             |           |
+| Open      | Float | Opening price in USD per troy ounce                 |           |
+| Volume    | N/A | # of Contracts Traded                               |           |
 
-Date
-Price
-High
-Low
-Open
-Volume
+
 
 Target: Price - cost of Silver 
 
