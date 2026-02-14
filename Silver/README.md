@@ -6,11 +6,22 @@
 2. Dataset.
 
 Source: 
-Size:
+
+    Provider: Yahoo Finance API (yfinance)
+    Ticker Symbol: SI=F (COMEX Silver Futures)
+    Collection Date: January 2026
+    Update Frequency: Historical dataset (static)
+
+Size: (2513, 8)
 Feature 	Type 	Description 	Relevance
+Date
+Price
+High
+Low
+Open
+Volume
 
-
-Target:
+Target: Price - cost of Silver 
 
 
 
@@ -31,5 +42,7 @@ Exploratory Data Analysis (EDA)
 
 
 7. Tools and Libraries
-
+Python
+Matplotlib
+Seaborn
 
