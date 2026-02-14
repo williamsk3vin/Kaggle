@@ -13,7 +13,16 @@ Source:
     Update Frequency: Historical dataset (static)
 
 Size: (2513, 8)
-Feature 	Type 	Description 	Relevance
+| Feature   | Type        | Description                                         | Relevance |
+|-----------|-------------|-----------------------------------------------------|-----------|
+| Date      | Integer     | Trading date                              |           |
+| Close     |      | |
+| Price     | Categorical | Adjusted CLosing Price                      |   Target  |
+| High      | Integer     | Highest Price of the Day                             |           |
+| Low       | Integer     | Lowest Price of the Day      |           |
+| Open      | Categorical | Opening price in USD per troy ounce                          |           |
+| Volume    | Categorical | # of Contracts Traded             |           |
+
 Date
 Price
 High
