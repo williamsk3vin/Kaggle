@@ -25,7 +25,7 @@ Size: (2513, 8)
 
 
 
-Target: Price - cost of Silver 
+Target: Price - Daily Cost of Silver 
 
 
 
