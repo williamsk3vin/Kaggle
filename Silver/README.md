@@ -5,7 +5,7 @@
 
 2. Dataset.
 
-Source: 
+Source: https://www.kaggle.com/datasets/muhammadaammartufail/silver-prices-10-year-data-and-2026-forecast?select=silver_prices_data.csv
 
     Provider: Yahoo Finance API (yfinance)
     Ticker Symbol: SI=F (COMEX Silver Futures)
@@ -49,4 +49,5 @@ Exploratory Data Analysis (EDA)
 Python
 Matplotlib
 Seaborn
+Sklearn
 
