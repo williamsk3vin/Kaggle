@@ -1,5 +1,5 @@
 
-📈 Silver Cost Forecast.  
+📈 Silver Cost Forecast
 1. Project Overview
 
 
