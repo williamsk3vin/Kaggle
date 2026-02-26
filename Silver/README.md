@@ -1,7 +1,23 @@
 
-📈 Silver Cost Forecast
+🪙 Silver Cost Forecast
 1. Project Overview
 
+   
+This project builds predictive models to forecast the daily cost of silver using historical COMEX silver futures data.
+
+The goal is to:
+	•	Analyze 10 years of historical price behavior
+	•	Identify meaningful trends and patterns
+	•	Engineer predictive features
+	•	Train regression models
+	•	Evaluate performance using RMSE and R²
+	•	Interpret model behavior and feature importance
+
+This project demonstrates:
+	•	Time series feature engineering
+	•	Regression modeling
+	•	Financial data preprocessing
+	•	Model evaluation and interpretation
 
 2. Dataset.
 
