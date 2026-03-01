@@ -1,6 +1,6 @@
 
-🪙 Silver Cost Forecast
-## 1. Project Overview
+🪙 Silver Cost Forecast 
+## 1. Project Overview 
 
    
 This project builds predictive models to forecast the daily cost of silver using historical COMEX silver futures data.
