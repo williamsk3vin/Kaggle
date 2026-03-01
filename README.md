@@ -11,6 +11,7 @@ This repository contains multiple independent Jupyter notebooks, each exploring 
 
 | Project | Description | Topics / Skills |
 |----------|--------------|-----------------|
+| US Adult Income | |
 | :chart_with_upwards_trend: **Silver Price 10 Year Historical Data & Forecasting**| Forecasts daily Silver price using lag features and historical data  | Time Series, Feature Engineering, Linear Regression, Ridge Regression, Random Forest Classification |
 |:cloud: **Daily Climate Time Series** | Forecasts daily weather patterns using lag features and seasonal time encoding | Time Series EDA, Feature Engineering, Linear & Ridge Regression, Random Forest, Multi-Target Forecasting |
 | :chart_with_upwards_trend: **Medical Insurance Cost** |  Analyzes health factors to determine medical insurance pricing | EDA, Correlation, Visualization, Linear Regression, Random Forest|
