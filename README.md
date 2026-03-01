@@ -27,7 +27,7 @@ This repository contains multiple independent Jupyter notebooks, each exploring 
 
 Core stack used across all projects:
 
-- **Python 3**
+- **Python3**
 - **Pandas** – data cleaning and manipulation  
 - **NumPy** – numerical computation  
 - **Matplotlib / Seaborn** – data visualization  
