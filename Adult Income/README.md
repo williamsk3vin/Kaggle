@@ -1,5 +1,5 @@
 
-# 🧠 Alzheimer’s Risk Prediction (Machine Learning Project)
+#  💰 Adult Income Prediction (Machine Learning Project)
 
 ## 1. Project Overview
 This project explores the Adult Census Income dataset to predict whether an individual earns more than $50K per year based on demographic, employment, and socioeconomic attributes.
