@@ -21,7 +21,7 @@ The analysis compares several classification approaches to determine which model
 
 Source: UCI Adult Census dataset (commonly used benchmark dataset for income prediction).
 Size: Train : (32561, 15)
-      Test : (16281, 15)
+      Test : (16281, 15) 
 | Feature   | Type    | Description                               | Relevance |
 |-----------|---------|-------------------------------------------|-----------|
 |     |   |              |     |
