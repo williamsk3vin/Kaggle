@@ -11,7 +11,7 @@ Model interpretability is performed using SHAP to visualize how different featur
 ## 2. Dataset
 
 Source: Provided Alzheimer’s clinical dataset
-Size: ~430 rows, 30+ clinical and cognitive features including...
+Size: 2149 records, 30+ clinical and cognitive features including...
 | Feature   | Type    | Description                               | Relevance |
 |-----------|---------|-------------------------------------------|-----------|
 | MMSE      | Float   | Mini-Mental State Exam Score              | High      |
@@ -97,7 +97,7 @@ Confusion Matrix
 Observations
 - Very few false negatives → extremely important in medical prediction.
 - Class balance handled using weighted loss (scale_pos_weight).
-- ROC and classification reports confirmed the model’s reliability.
+- ROC and classification reports provided a more complete evaluation of holdout-set performance.
 
 ---
 
